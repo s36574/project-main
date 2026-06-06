@@ -1,0 +1,128 @@
+:root {
+    --bg: #ccbeb1;
+    --paper: #f3e7d4;
+    --dark: #321c08;
+    --brown: #684c36;
+    --accent: #ffd3ac;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--dark);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.65;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+
+}
+
+a {
+    color: inherit;
+
+}
+
+.website-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--dark);
+    border-bottom: 1px solid var(--brown);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin: 0 auto;
+    padding: 1rem 1.25rem;
+    max-width: 1200px;
+
+
+}
+
+.home {
+    color: var(--paper);
+    font-weight: bold;
+    text-decoration: none;
+    white-space: nowrap;
+
+}
+.home:hover {color: var(--accent);}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 0.35rem 1rem;
+}
+
+.nav-links a {
+    color: var(--paper);
+    text-decoration: none;
+}
+.nav-links a:hover {color: var(--accent);}
+
+footer {
+  position: fixed;
+  bottom: 1.25rem;
+  left: 5%;
+  margin: 0;
+}
+
+.pages {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 2.5rem;
+  max-width: 90%;
+  margin: 0 auto 0 5%;
+  padding: 2.5rem 1.25rem;
+}
+
+.pages-posters {
+  flex: 0 0 28.75rem;
+  order: 1;
+  margin-top: 1rem;
+}
+
+.pages-posters img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 0.5rem solid var(--dark);
+}
+
+.pages-content {
+  flex: 1;
+  order: 2;
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+.pages-description {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  text-align: justify;
+  color: var(--dark);
+  margin-top: 1rem;
+}
+
+.pages-list {
+  list-style-type: square;
+  padding: 0 0 0 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.pages-list li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: var(--dark);
+}
