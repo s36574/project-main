@@ -280,3 +280,19 @@ main, .hero, .category-pages, .pages {
   font-size: 1rem;
   color: var(--dark);
 }
+
+.pages-list-about {
+ list-style-type: square;
+  padding: 0 0 0 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.pages-list-about li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: var(--dark);
+}
+
+.contact {
+  font-weight: bold;
+}
