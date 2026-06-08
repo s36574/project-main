@@ -91,7 +91,7 @@ a {
   min-height: 80vh;
   padding: 4rem 0;
   margin: 0 auto;
-  max-width: 1500px;
+  max-width: 1800px;
 }
 
 .hero-content {
@@ -131,7 +131,7 @@ a {
 .eyebrow {
   margin-bottom: 10px;
   color: var(--dark);
-  font-size: 0.9rem;
+  font-size: 0,9rem;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -259,11 +259,11 @@ main, .hero, .category-pages, .pages {
   gap: 2.5rem;
   max-width: 90%;
   margin: 0 auto 0 5%;
-  padding: 2.5rem 1.25rem;
+  padding: 3rem 1.5rem;
 }
 
 .pages-posters {
-  flex: 0 0 460px;
+  flex: 0 0 650px;
   order: 1;
   margin-top: 1rem;
 }
@@ -279,7 +279,9 @@ main, .hero, .category-pages, .pages {
 .pages-content {
   flex: 1;
   order: 2;
+  margin-top: 8rem;
   font-family: 'Georgia', 'Times New Roman', Times, serif;
+  max-width: 1400px
 }
 
 .pages-description {
